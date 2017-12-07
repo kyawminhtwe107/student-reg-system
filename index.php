@@ -1,8 +1,8 @@
 <?php  
-  if(!@$_SESSION)
-  {
-    session_start();
-  }
+  // if(!@$_SESSION)
+  // {
+  //   session_start();
+  // }
   require('include/user.php');
 
   if(@$_POST['submit'])
